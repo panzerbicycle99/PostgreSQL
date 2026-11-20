@@ -22,7 +22,13 @@ build/
 .DS_Store
 Thumbs.db
 
-# Solo permitir el archivo de graduacion en la raiz
+# Solo permitir los archivos del proyecto Java en la raiz
 /*
 !/.gitignore
-!/index.html
+!/build.xml
+!/manifest.mf
+!/nbproject/
+!/src/
+
+#Graduacion
+#!/index.html
